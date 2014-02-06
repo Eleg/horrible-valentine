@@ -70,3 +70,7 @@ post '/' do
   erb :result
 
 end
+
+get '/hello' do
+  erb :hello
+end
